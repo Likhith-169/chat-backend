@@ -9,7 +9,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: "http://localhost:3000", // your frontend
+    origin: "https://chat-frontend-psi-blue.vercel.app/", // your frontend
     methods: ["GET", "POST"],
   },
 });
